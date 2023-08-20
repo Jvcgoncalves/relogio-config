@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <script src="./main.bundle.js" type="module" defer></script>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>Relógio</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div id="travelIntoOperations">
+                <button data-go-to="clock" class="changeOperationsButtons"><img class="buttons-images" src="img/logo-relogio.png" alt=""></button>
+                <button data-go-to="stopwatch" class="changeOperationsButtons"><img class="buttons-images" src="img/logo-cronometro.png" alt=""></button>
+                <button data-go-to="timer" class="changeOperationsButtons"><img class="buttons-images" src="img/logo-timer.png" alt=""></button>
+        </div>
+        <div class="relogio" data-system="clock">
+            <div class="clock">
+                <div class="tempo">
+                    <p id="horas">00</p><span>horas</span>
+                </div>
+                <span>:</span>
+                <div class="tempo">
+                    <p id="minutos">00</p><span>minutos</span>
+                </div>
+                <span>:</span>
+                <div class="tempo">
+                    <p id="segundos">00</p><span>segundos</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
