@@ -42,7 +42,7 @@ export class ChangeStructure{
                </div>
                   <span>:</span>
                <div class="tempo">
-                  <p id="miliSegundos">0</p>
+                  <p id="miliSegundos">00</p>
                   <span>Milisegundos</span>
                </div>
             </div>

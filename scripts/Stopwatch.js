@@ -37,9 +37,9 @@ export class Stopwatch {
           minutos=0
           horas=0
           miliSegundosPart.innerText=miliSegundos < 10 ? `0${miliSegundos}` : miliSegundos
-          segundosPart.innerText=segundos < 10 ? `0${segundos}` : segundos
-          minutosPart.innerText=minutos < 10 ? `0${minutos}` : minutos
-          horasPart.innerText=horas < 10 ? `0${horas}` : horas
+          segundosPart.innerText='00'
+          minutosPart.innerText='00'
+          horasPart.innerText='00'
           document.title=`Cronômetro: ${horasPart.textContent} : ${minutosPart.textContent} : ${segundosPart.textContent}`   
       })
       document.getElementById('startButton').addEventListener('click',()=>{

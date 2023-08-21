@@ -7,9 +7,9 @@ export class Clock{
          let horas = document.querySelector('#horas')
          let minutos = document.querySelector('#minutos')
          let segundos = document.querySelector('#segundos')
-         horas.innerText = date.getHours()
-         minutos.innerText = date.getMinutes()
-         segundos.innerText = date.getSeconds()
+         horas.innerText =date.getHours() < 10 ? `0${date.getHours()}` : date.getHours()
+         minutos.innerText =date.getMinutes() < 10 ? `0${date.getMinutes()}` : date.getMinutes()
+         segundos.innerText = date.getSeconds() < 10 ? `0${date.getSeconds()}` : date.getSeconds()
          document.title=`Horário ${horas.innerText} : ${minutos.innerText} : ${segundos.innerText}`
       }) 
    }

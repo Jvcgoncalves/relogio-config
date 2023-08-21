@@ -7,7 +7,7 @@
 .container{
    display: flex;
    min-height: 100vh;
-   background:linear-gradient(90deg,#fa9090,#0000ff);
+   background:linear-gradient(90deg,#ffe600,#d61900);
    justify-content: center;
    align-items: center;
 }
