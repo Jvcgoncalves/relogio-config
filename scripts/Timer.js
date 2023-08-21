@@ -75,9 +75,9 @@ export class Timer{
       })
    }
    static startTimer(){
-      this.stopTimer()
       let startButton = document.getElementById('startButton')
       startButton.addEventListener('click',()=>{
+         this.stopTimer()
          this.startedOnce= true
          let horas = document.querySelector('#horas')
          let minutos = document.querySelector('#minutos')
@@ -95,8 +95,8 @@ export class Timer{
                min--
                sec=60
                if(min < 0 && h >0){
-                   min=59
-                   h--
+                     min=59
+                     h--
                }
             } else if(sec ===0 && min === 0 && h > 0 ){
                h--
@@ -105,13 +105,13 @@ export class Timer{
             }
             sec--
          } 
-        
+         
          horas.innerText= h < 10 ? `0${h}` : h
          minutos.innerText= min < 10 ? `0${min}` : min
          segundos.innerText= sec < 10 ? `0${sec}` : sec
          document.title=`Timer ${horas.textContent} : ${minutos.textContent} : ${segundos.textContent}`
          },1000)
-         
+
       })
       document.getElementById('stopButton').addEventListener('click',()=>{
          clearInterval(this.intervalId)
