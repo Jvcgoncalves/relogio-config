@@ -1,5 +1,3 @@
-![logo-relogio](https://github.com/Jvcgoncalves/relogio-config/assets/127047416/fab51298-2710-4693-8eca-6116611547ff)
-
 ## STC 
 
 Website with 3 features
