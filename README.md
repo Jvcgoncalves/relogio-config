@@ -1,5 +1,4 @@
-
-![icon-logo](https://github.com/Jvcgoncalves/site-de-veiculos/assets/127047416/d72ba40c-9da7-4062-bf94-ddb799b36d3f)
+![apple-touch-icon](https://github.com/Jvcgoncalves/relogio-config/assets/127047416/241e4232-9cef-4f31-a665-c91aa2afad43)
 
 ## STC 
 
