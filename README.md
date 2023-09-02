@@ -1,0 +1,62 @@
+
+![icon-logo](https://github.com/Jvcgoncalves/site-de-veiculos/assets/127047416/d72ba40c-9da7-4062-bf94-ddb799b36d3f)
+
+## STC 
+
+Website with 3 features
+Use it and don't waste time
+
+
+## Technology 
+
+Techs i used to develop this project
+
+* Java Script ES6
+* Babel
+* Webpacker
+
+## Services Used
+
+* Github
+* Netlify
+  
+## How to use
+
+### 1 - When you access, you will see the main page, which just show the current time
+
+![image](https://github.com/Jvcgoncalves/relogio-config/assets/127047416/39c6f2cb-3dc5-4cd3-bf98-caf64b85b224)
+
+
+### 2 - At the top you have a navigation bar.
+
+![image](https://github.com/Jvcgoncalves/relogio-config/assets/127047416/193e5b73-caae-4133-9f57-3e7490f2db11)
+
+* ⏱️ The first one is a regular watch and is the main page.
+* ⏲️ The second item is a timer.
+* ⌛ the third item is the stopwatch.
+
+## Features
+
+The features of the application are:
+ - Regular watch
+ - Timer
+ - Stopwatch
+
+## Links
+  - Deploy on netlify: https://manage-your-time.netlify.app/
+  - Repository: https://github.com/Jvcgoncalves/relogio-config
+    - In case of bugs or suggestions contact goncalvesdacosta05@gmail.com
+      
+
+  ## Versioning
+
+  1.0.0.0
+
+
+  ## Authors
+
+  * **João Vitor Gonçalves da Costa** 
+
+  Please follow github and linkdin (link in my profile )!
+  Thanks to visiting me and good coding!
+
