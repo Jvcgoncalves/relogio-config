@@ -1,4 +1,4 @@
-![apple-touch-icon](https://github.com/Jvcgoncalves/relogio-config/assets/127047416/241e4232-9cef-4f31-a665-c91aa2afad43)
+![logo-relogio](https://github.com/Jvcgoncalves/relogio-config/assets/127047416/fab51298-2710-4693-8eca-6116611547ff)
 
 ## STC 
 
